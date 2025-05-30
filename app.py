@@ -40,7 +40,7 @@ st.image(image, width=600)
 
 st.write("El siguiente mecanismo controlado por voz es capaz de prender o apagar la estufa sin tener que tocarla. Prueba para ver si le funciona.")
 
-stt_button = Button(label=" Inicio ", width=200)
+stt_button = Button(label=" Iniciar ", width=200)
 
 stt_button.js_on_event("button_click", CustomJS(code="""
     var recognition = new webkitSpeechRecognition();
