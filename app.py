@@ -28,17 +28,17 @@ client1.on_message = on_message
 
 
 
-st.title("INTERFACES MULTIMODALES")
-st.subheader("CONTROL POR VOZ")
+st.title("Control de Estufa por Voz")
+st.subheader("Ignis quedó ciego durante sus aventuras, por lo que necesita una estufa con control por voz para poder cocinar para el grupo (no preguntes cómo cocina).")
 
-image = Image.open('voice_ctrl.jpg')
+image = Image.open('ignis.png')
 
-st.image(image, width=200)
-
-
+st.image(image, width=600)
 
 
-st.write("Toca el Botón y habla ")
+
+
+st.write("El siguiente mecanismo controlado por voz es capaz de prender o apagar la estufa sin tener que tocarla. Prueba para ver si le funciona.")
 
 stt_button = Button(label=" Inicio ", width=200)
 
